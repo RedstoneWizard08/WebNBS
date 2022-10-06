@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@audio/*": ["./public/audio/*"],
+            "@textures/*": ["./public/textures/*"]
+        },
+        "types": ["node", "phaser"],
+        "allowJs": true,
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "module": "CommonJS",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "inlineSourceMap": false,
+        "target": "ESNext",
+        "typeRoots": ["node_modules/@types", "node_module/phaser/types"]
+    },
+
+    "exclude": [".git", "node_modules", "dist", "public"]
+}
