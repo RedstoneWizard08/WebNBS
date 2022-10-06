@@ -1,0 +1,12 @@
+{
+    "forwardPorts": [
+        3000
+    ],
+    "onCreateCommand": "corepack enable && pnpm install",
+    "postAttachCommand": "pnpm run dev",
+    "portsAttributes": {
+        "3000": {
+            "label": "WebNBS Dev Preview"
+        }
+    }
+}
